@@ -1,0 +1,2 @@
+# linguagem-3
+import teste01  try:          # Executar a Função     c = teste01.converte_para_celsius(50)     # Verificar se o valor de returno é igual ao esperado     assert c == 10     print('Correto') except AssertionError:     # caso o valor de returno nao seja igual ao esperado      # a instrução assert gera uma exceção AsertionError     print('Erro')     print('Returno:', c)     print('Esperado:',10)
